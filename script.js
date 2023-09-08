@@ -1,4 +1,4 @@
-const usernames = ["Gurkamal_brar", "TEJ-416", "PyroSama07", "shaifali_06","AM0312","shouryade","bhardwaj113yashasvi"];
+const usernames = ["Gurkamal_brar", "TEJ-416", "PyroSama07", "shaifali_06","AM0312","shouryade","bhardwaj113yashasvi","abieynow","Aakash_8950","aditibinjola"];
         const leaderboard = document.getElementById("leaderboard");
         const table = document.querySelector("table"); // Get the table element
         const loader = document.querySelector(".loader"); // Get the loader element
