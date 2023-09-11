@@ -134,7 +134,9 @@ tr:hover a {
       max-width: 100%; /* Adjust the container width to 100% for small screens */
       padding: 40px; /* Adjust padding for better spacing on small screens */
   }
-
+  footer{
+    left: auto;
+  }
   table {
       font-size: 14px;
   }
