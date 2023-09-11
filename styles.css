@@ -15,7 +15,7 @@ body {
 footer {
   text-align: center;
   bottom: 0;
-  position: fixed; /* Change to fixed position */
+  position:relative; /* Change to fixed position */
   left: 0;
   right: 0;
   color: #626574;
