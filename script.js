@@ -45,8 +45,10 @@ async function updateLeaderboard() {
         const row = document.createElement('tr');
         row.innerHTML = `
             <td>${rank}</td>
-            <td><a href="https://leetcode.com/${userData.username}/" target="_blank" <div class="button-borders">
-                     <button class="primary-button">${userData.name}</div></button></a></td>
+            <td><a href="https://leetcode.com/${userData.username}/" target="_blank" <<button data-text="Awesome" class="button">
+            <span class="actual-text">&nbsp;${userData.name}&nbsp;</span>
+            <span class="hover-text" aria-hidden="true">&nbsp;${userData.name}&nbsp;</span>
+        </button></a></td>
             <td>${userData.totalSolved}</td>
             <td>${userData.easySolved}</td>
             <td>${userData.mediumSolved}</td>
