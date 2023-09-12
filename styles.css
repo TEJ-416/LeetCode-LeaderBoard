@@ -350,7 +350,7 @@ tr:hover a {
   --border-right: 6px;
   --text-stroke-color: rgb(255, 255, 255);
   --animation-color: #b6323d;
-  --fs-size: 2em;
+  --fs-size: 1.5em;
   letter-spacing: 3px;
   text-decoration: none;
   font-size: var(--fs-size);
