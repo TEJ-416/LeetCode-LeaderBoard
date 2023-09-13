@@ -24,7 +24,7 @@ body{
   background: #181823;
   padding: 30px;
 }
-footer {
+.footer {
   z-index: 2;
   text-align: center;
   bottom: 0;
@@ -130,8 +130,9 @@ tr:hover a {
       max-width: 100%; /* Adjust the container width to 100% for small screens */
       padding: 40px; /* Adjust padding for better spacing on small screens */
   }
-  footer{
+  .footer{
     left: auto;
+    bottom: -800px;
   }
   table {
       font-size: 14px;
