@@ -1,5 +1,5 @@
-const usernames = ["Gurkamal_brar", "TEJ-416", "PyroSama07", "shaifali_06","AM0312","shouryade","bhardwaj113yashasvi","abieynow","Aakash_8950","aditibinjola","Ayushsinghal109"];
-const names=["GURKAMAL", "TEJVIR", "ROCHAK", "SHAIFALI", "ANSH", "SHOURYA", "YASHASVI", "ABHINAV", "AAKASH", "ADITI","AYUSH"];
+const usernames = ["Gurkamal_brar", "TEJ-416", "PyroSama07", "shaifali_06","AM0312","shouryade","bhardwaj113yashasvi","abieynow","Aakash_8950","aditibinjola","Ayushsinghal109","Hardik_Garg_03"];
+const names=["GURKAMAL", "TEJVIR", "ROCHAK", "SHAIFALI", "ANSH", "SHOURYA", "YASHASVI", "ABHINAV", "AAKASH", "ADITI","AYUSH","HARDIK"];
 const leaderboard = document.getElementById("leaderboard");
 const table = document.querySelector("table"); // Get the table element
 const loader = document.querySelector(".loader"); // Get the loader element
