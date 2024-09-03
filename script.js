@@ -26,14 +26,12 @@ async function updateLeaderboard() {
     leaderboard.innerHTML = ''; // Clear previous data
 
     // Create an array to store user data with rank, name, and score
-    const userDataArray = [];
 
-    for (let i=0;i<usernames.length;i++) {
-        const userData = await fetchUserData(usernames[i],names[i]);
-        if (userData) {
-            userDataArray.push(userData);
-        }
-    }
+    const userDataPromises = usernames.map((username, index) => {
+        return fetchUserData(username, names[index]);
+    });
+
+    const userDataArray = await Promise.all(userDataPromises);
 
     // Sort the user data by score in ascending order
     userDataArray.sort((a, b) => a.ranking - b.ranking);
